@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
+ .devicon2{
+   width: 100%;
+  font-size: 50px;
+}
+
 body {
   font-family: 'Lato';
 }
@@ -382,3 +387,4 @@ a:focus, a:hover, a:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
+
