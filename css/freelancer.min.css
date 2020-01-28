@@ -28,8 +28,19 @@
 
 }
 .col-lg-4{
-    margin: 0px;
-    text-align: center;
+    margin: auto !important;
+    margin-right: 536px !important;
+    margin-top: 100px !important;
+    text-align: center !important;
+    font-size: 25px;
+    
 }
 
+.lead2{
+     width: 200% !important;
+}
+
+.portfo{
+    margin: auto !important;
+}
 
