@@ -69,9 +69,24 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
               <a
+              target="_blank"
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="img/portfolio/Ronald Crecco March 2020 Resume.pdf"
+                >Resume</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
                 class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                 href="#portfolio"
                 >Portfolio</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#skills"
+                >Skills</a
               >
             </li>
             <li class="nav-item mx-0 mx-lg-1">
@@ -81,6 +96,14 @@
                 >About</a
               >
             </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#Experience"
+                >Experience</a
+              >
+            </li>
+            
             <!-- <li class="nav-item mx-0 mx-lg-1">
               <a
                 class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
@@ -172,13 +195,15 @@
     </section>
 
     <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-      <div class="container">
+    <section class="bg-primary text-white mb-0" >
+      <div class="container" id="skills">
+        <br></br>
+        <br></br>
         <h2 class="text-center text-uppercase text-white">Skills</h2>
         <hr class="star-light mb-5" />
         <div class="row-dev">
-          <div class="deviconGrid">
-            <div class="devicon2">
+          <div class="deviconGrid" style="display:flex;text-align: center;font-size: 35px;flex-wrap: wrap;align-items: center;">
+            <div class="devicon2" style="margin:15px;">
               <i class="devicon-react-original colored"></i>
               <div class="devicon-text">React.js</div>
             </div>
@@ -232,9 +257,10 @@
             </div>
           </div>
         </div>
-
-        <h2 class="text-center text-uppercase text-white">About</h2>
-        <div class="col-lg-4 ml-auto">
+        <br></br>
+        <br></br>
+        <h2 id="about" class="text-center text-uppercase text-white">About</h2>
+        <div style="margin-left:5%!important;margin-right: 35%;margin-top: 45px;max-width: 1000px !important;" class="col-lg-4 ml-auto about-col">
           <p class="lead2">
             Passionate full stack software developer with an audio tech
             background bringing projects to life. Applying my comprehensive
@@ -244,6 +270,14 @@
             problems, creating new ideas, and working on the forefront of
             technology.
           </p>
+        </div>
+        <br></br>
+        <br></br>
+
+        <h2 id="Experience" class="text-center text-uppercase text-white">Experience</h2>
+        <div style="margin-left:12%!important;margin-top: 45px;max-width: 1000px !important;" class="col-lg-4 ml-auto about-col">
+          <h4>Software Development and Database Managment - Moodswing Music</h4>
+          <h4>Web Development and Design - WriteAway-Org</h4>
         </div>
       </div>
     </section>
@@ -327,7 +361,7 @@
                   class="btn btn-outline-light btn-social text-center rounded-circle"
                   href="https://angel.co/ronald-crecco-gmail-com?al_content=view+your+profile&al_source=transaction_feed%2Fnetwork_sidebar"
                 >
-                  <i class="fab fa-angel-list"></i>
+                  <i class="fab fa-angellist"></i>
                 </a>
               </li>
             </ul>
