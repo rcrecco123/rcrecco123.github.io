@@ -341,15 +341,22 @@ a:hover {
   align-content: center;
   align-items: center;
   justify-content: space-around;
+  font-family: Lato;
+  font-size: 65px;
 }
 
+.devicon-text {
+  font-family: Lato;
+  font-size: 65px;
+}
 .deviconGrid {
   display: flex;
   text-align: center;
-  font-size: 35px;
+  font-size: 65px;
   flex-wrap: wrap;
   align-items: center;
-  width: 55%;
+  width: 100%;
   margin: auto;
-  /* padding-left: 25px; */
+  padding-left: 25px;
+  margin-left: 65px;
 }
